@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "../Header/Header.js";
 // import articles from "../../libs/articles";
 
 // function App() {
@@ -51,7 +52,7 @@ import Posts from "../Posts/Posts.js";
 const App = () => {
   return (
     <div className="main-container">
-      <h1 className="main-heading">WikiPigeon</h1>
+      <Header />
       <Posts />
     </div>
   );
