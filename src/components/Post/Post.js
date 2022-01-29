@@ -1,20 +1,20 @@
 import React from "react";
-import "./Post.css";
+import style from "./style.module.css";
 
 const Post = ({ post: { title, paragraphs, comments }, index }) => {
   return (
-    <div className="post-container">
-      <h1 className="heading">{title}</h1>
-      <div className="paragraph">
+    <div className={style.postContainer}>
+      <h1 className={style.heading}>{title}</h1>
+      <div className={style.paragraph}>
         {paragraphs.map((paragraph) => {
           return <p>{paragraph}</p>;
         })}
       </div>
-      <button className="like-button">Like 👍</button>
-      <div className="comment-section">
+      <button className={style.likeButton}>Like 👍</button>
+      <div className={style.commentSection}>
         {comments.map((comment) => {
           return (
-            <div className="comment">
+            <div className={style.comment}>
               <h4>{comment.name} says:</h4>
               <p>{comment.text}</p>
             </div>
