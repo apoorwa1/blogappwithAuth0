@@ -49,16 +49,22 @@ import "./App.css";
 import LoginButton from "../LoginButton";
 import LogoutButton from "../LogoutButton";
 import Profile from "../UserProfile";
-
+//import { useAuth0 } from "@auth0/auth0-react";
+//import { Routes, Route } from "react-router-dom";
 import Posts from "../Posts/Posts.js";
+//import Home from "../Home.js";
 
 const App = () => {
+  //const { isAuthincated } = useAuth0;
+  // if (!isAuthincated) {
+  //   return <LoginButton />;
+  // }
   return (
-    <div className="main-container">
+    <div>
+      <Header />
       <LoginButton />
       <LogoutButton />
       <Profile />
-      <Header />
       <Posts />
     </div>
   );
