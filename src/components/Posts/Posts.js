@@ -5,7 +5,7 @@ import Post from "../Post/Post.js";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Posts() {
-  const { user, isAuthenticated } = useAuth0();
+  const { isAuthenticated } = useAuth0();
   if (isAuthenticated === false) {
     return <div>Please login to view articles</div>;
   }
