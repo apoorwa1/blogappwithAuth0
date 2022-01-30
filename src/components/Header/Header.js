@@ -2,13 +2,13 @@ import * as React from "react";
 
 // importing material UI components
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
+//import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import GlobalStyles from "@mui/styled-engine";
+//import GlobalStyles from "@mui/styled-engine";
 
 export default function Header() {
   return (

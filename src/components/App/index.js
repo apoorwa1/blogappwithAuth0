@@ -46,12 +46,18 @@ import Header from "../Header/Header.js";
 
 import React from "react";
 import "./App.css";
+import LoginButton from "../LoginButton";
+import LogoutButton from "../LogoutButton";
+import Profile from "../UserProfile";
 
 import Posts from "../Posts/Posts.js";
 
 const App = () => {
   return (
     <div className="main-container">
+      <LoginButton />
+      <LogoutButton />
+      <Profile />
       <Header />
       <Posts />
     </div>
