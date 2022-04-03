@@ -1,6 +1,6 @@
 
 ## Deployed app URL:
-https://61f72ab700f52561ad5c427c--wikipigeonrecap.netlify.app/
+https://wikipigeonrecap.netlify.app/
 
 ## Blog App 
 
